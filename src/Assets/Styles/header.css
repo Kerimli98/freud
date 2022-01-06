@@ -1,0 +1,26 @@
+.Header {
+  font-family: "Poppins", sans-serif;
+}
+.Header__front, .Header__back {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+  font-weight: 900;
+}
+.Header__front {
+  color: #f2473e;
+}
+.Header__back {
+  color: white;
+}
+.Header__img {
+  height: 100vh;
+  width: 100vw;
+  background: url("../images/KU_study-4.jpg");
+}
+
+/*# sourceMappingURL=header.css.map */
