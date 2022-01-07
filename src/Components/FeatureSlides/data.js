@@ -17,7 +17,7 @@ export const data = [
     {
         title: "1900",
         description: "His major work 'The Interpretation of Dreams' was published in which Freud analysed dreams in terms of unconscious desires and experiences.",
-        imageUrl: "https://kbimages1-a.akamaihd.net/b4b85d9c-f636-4622-8bfc-a02a5334425a/1200/1200/False/the-interpretation-of-dreams-9.jpg"
+        imageUrl: "https://images-na.ssl-images-amazon.com/images/I/71t6oYLO8DL.jpg"
     },
 
     {
@@ -38,7 +38,7 @@ export const data = [
     {
         title: "1938",
         description: "Shortly after the Nazis annexed Austria, Freud left Vienna for London with his wife and daughter Anna.",
-        imageUrl: "https://www.freud.org.uk/wp-content/uploads/2018/04/in72-390x300.jpg"
+        imageUrl: "https://i0.wp.com/www.bookofdaystales.com/wp-content/uploads/2018/12/af10.jpg"
     },
     {
         title: "1939",

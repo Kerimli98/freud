@@ -27,7 +27,7 @@ function Header({menu, setMenu}) {
                     // trigger: 'body', not necessary as body is the default when no trigger is applied
                     start: 'top top-=100px',
                     end: '+=' + ((window.innerHeight * 10) - 100),
-                    scrub: true,
+                    scrub: 1,
                     animation: tl
                 })
             },

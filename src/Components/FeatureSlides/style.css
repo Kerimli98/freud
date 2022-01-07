@@ -1,37 +1,45 @@
 .feature-slides-container {
+  background-color: #fafaf2;
   font-family: "Popoins", sans-serif;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(5, 1fr);
 }
-.feature-slides-container .feature-slide {
+.feature-slides-container .feature-slides-left {
+  grid-column: 1/span 3;
+}
+.feature-slides-container .feature-slides-left .feature-slide {
+  grid-column: 1/span 3;
   height: 100vh;
+  width: 75%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 80%;
-  margin: 0 auto;
+  align-items: center;
 }
-.feature-slides-container .feature-slide .feature-slide-title {
-  font-size: 6vw;
+.feature-slides-container .feature-slides-left .feature-slide .feature-slide-title {
+  margin: 0;
+  font-size: 10rem;
   text-transform: uppercase;
   font-weight: 100;
   color: #f2473e;
 }
-.feature-slides-container .feature-slide .feature-slide-description {
-  font-size: 1.5rem;
+.feature-slides-container .feature-slides-left .feature-slide .feature-slide-description {
+  font-size: 2rem;
   line-height: 1.3;
   font-weight: 200;
   color: #141414;
-  text-align: left;
 }
 .feature-slides-container .feature-slides-right {
+  grid-column: 4/span 2;
   height: 100vh;
   overflow: hidden;
   position: relative;
 }
 .feature-slides-container .feature-slides-right img {
-  width: 80%;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

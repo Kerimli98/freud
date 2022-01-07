@@ -13,6 +13,7 @@ function FeatureSlide({title, description, index, updateActiveImage}) {
 
     return (
         <div ref={ref} className="feature-slide">
+
             <h3 className="feature-slide-title">
                 {title}
             </h3>

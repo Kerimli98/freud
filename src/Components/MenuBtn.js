@@ -3,10 +3,10 @@ import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 import {useEffect} from "react";
 
-function Sidebar({menu,setMenu}) {
+function MenuBtn({menu,setMenu}) {
     return (
-        <div className="Sidebar">
-            <button className={`menu-trigger ${menu && 'menu-close'}`} onClick={()=>setMenu(!menu)}>
+        <div className="Menu">
+            <button className={`menu-trigger + ${menu && 'menu-close'}`} onClick={()=>setMenu(!menu)}>
                 <span></span>
                 <span></span>
             </button>
@@ -14,4 +14,4 @@ function Sidebar({menu,setMenu}) {
     );
 }
 
-export default Sidebar;
+export default MenuBtn;

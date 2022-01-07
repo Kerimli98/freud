@@ -1,0 +1,45 @@
+.Menu {
+  z-index: 1001;
+  position: fixed;
+  right: 25px;
+  top: 18px;
+
+  .menu-trigger {
+    display: inline-flex;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    border: 0;
+    outline: 0;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+
+    span {
+      display: inline-flex;
+      width: 30px;
+      height: 4px;
+      border-radius: 16px;
+      background-color: #efefef;
+      transition: all ease 0.5s;
+    }
+  }
+
+  .menu-close {
+    span {
+      position: absolute;
+      background-color: #efefef;
+
+      &:nth-child(1) {
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(2) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+}
