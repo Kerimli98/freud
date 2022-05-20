@@ -1,6 +1,4 @@
-import Header from "./Components/Header";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import {useState} from "react";
+import {BrowserRouter as Router} from "react-router-dom";
 import Main from "./container/Main";
 
 function App() {

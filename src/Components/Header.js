@@ -1,7 +1,7 @@
 import "../Assets/Styles/header.scss"
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {useEffect, useState} from "react";
+import {useEffect} from "react";
 
 
 function Header({menu, setMenu}) {

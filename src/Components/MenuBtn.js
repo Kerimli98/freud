@@ -1,7 +1,4 @@
 import '../Assets/Styles/menu.scss'
-import {gsap} from "gsap";
-import {ScrollTrigger} from "gsap/ScrollTrigger";
-import {useEffect} from "react";
 
 function MenuBtn({menu,setMenu}) {
     return (

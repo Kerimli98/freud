@@ -9,6 +9,7 @@ function RenderImages({activeFeatureIndex}) {
     return data.map(({imageUrl}, index) => (
         <img className={activeFeatureIndex === index && 'as-primary'}
              key={imageUrl}
+             alt="img"
              style={{backgroundImage: `url(${imageUrl})`}}
         />
     ));

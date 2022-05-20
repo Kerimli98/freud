@@ -4,9 +4,7 @@ import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
 
 function Dot(props) {
-    const blockRef = useRef(null);
-    const dotRef = useRef(null);
-    const textContRef = useRef(null);
+
     useEffect(() => {
         gsap.registerPlugin(ScrollTrigger);
 

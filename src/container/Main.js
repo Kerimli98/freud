@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import FeatureSlides from "../Components/FeatureSlides";
 import '../Components/FeatureSlides/style.scss'
 import Header from "../Components/Header";
