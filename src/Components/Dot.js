@@ -20,7 +20,7 @@ function Dot(props) {
                 end: "+=100%",
                 scrub: true,
                 pin: true,
-                markers: true
+                // markers: true
             }
         });
 
