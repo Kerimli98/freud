@@ -1,4 +1,3 @@
-import React from 'react';
 import {useState, useEffect} from "react";
 
 function UseOnScreen(ref, rootMargin = '0px') {

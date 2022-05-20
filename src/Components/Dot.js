@@ -1,4 +1,4 @@
-import React, {useEffect, useRef} from 'react';
+import React, {useEffect} from 'react';
 import '../Assets/Styles/dot.scss';
 import {gsap} from "gsap";
 import {ScrollTrigger} from "gsap/ScrollTrigger";
@@ -29,7 +29,7 @@ function Dot(props) {
         })
             .to(".text-container", {xPercent:-200},"-=0.35");
 
-    }, [])
+    })
 
     return (
 

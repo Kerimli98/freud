@@ -1,12 +1,12 @@
 import '../Assets/Styles/Sidebar.scss'
-import React, {useMemo} from "react";
+import React, {useMemo, useState} from "react";
 
 import {gsap} from "gsap";
 import {useRef, useEffect} from "react";
 
 
-function Sidebar({menu, setMenu}) {
-
+function Sidebar() {
+const [menu, setMenu]= useState(false)
     let sidebarMenu = useRef(null);
     let sidebarMenuOverlay = useRef(null);
     let menuLayer = useRef(null);
@@ -25,11 +25,11 @@ function Sidebar({menu, setMenu}) {
                     amount: 0.5
                 }
             })
-    }, [])
+    })
 
     useEffect(() => {
         menu ? menuTimeline.play() : menuTimeline.reverse()
-    }, [menu]);
+    });
 
     return (
         <div className="Sidebar" ref={el => (sidebarMenuOverlay = el)}>
