@@ -9,7 +9,7 @@ function FeatureSlide({title, description, index, updateActiveImage}) {
         if (onScreen) {
             updateActiveImage(index);
         }
-    }, [onScreen, index]);
+    });
 
     return (
         <div ref={ref} className="feature-slide">
